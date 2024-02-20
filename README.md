@@ -27,3 +27,7 @@ Things you may want to cover:
 rails g model contact --generate model
 rails db:migrate
 rails g controller v1/contacts
+=======
+# ruby-crud
+Simple ruby crud application
+
