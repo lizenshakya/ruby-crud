@@ -27,6 +27,8 @@ Things you may want to cover:
 rails g model contact --generate model
 rails db:migrate
 rails g controller v1/contacts
+bundle i
+rails g model account name:string slug:string owner:references                                                                                
 =======
 # ruby-crud
 Simple ruby crud application
