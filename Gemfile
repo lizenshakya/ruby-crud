@@ -12,9 +12,11 @@ gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 
 gem 'rack-cors'
-
+gem 'byebug', '~> 11.1', '>= 11.1.3'
+gem 'jbuilder', '~> 2.7'
 gem 'devise'
-
+gem 'simple_token_authentication', '~> 1.15', '>= 1.15.1'
+gem 'friendly_id', '~> 5.1'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
