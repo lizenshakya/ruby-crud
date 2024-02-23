@@ -1,7 +1,6 @@
 class V1::ContactsController < ApplicationController
     def index
-        byebug
-        @contacts = Contact.all()
+        @contacts = current_user.contacts
 
         render json: @contacts, status: :ok
     end
@@ -14,7 +13,7 @@ class V1::ContactsController < ApplicationController
     end
 
     def destroy
-        @contact = Conatct.where(id: params[:id]).first
+        @contact = current_user.contacts.where(id: params[:id]).first
         if @contact.destroy
             head(:ok)
 
