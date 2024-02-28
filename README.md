@@ -33,6 +33,4 @@ rails g rspec:model User
 rails g rspec:install    
 rspec spec/models/user_spec.rb
 =======
-# ruby-crud
-Simple ruby crud application
 
